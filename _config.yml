@@ -20,13 +20,13 @@
 
 title: Joaquin Castillo
 email: joaquin.castillo0219@gmail.com
+# this description is being ignored in my implementation because I don't know how to pass html hyperlinks thru yaml
 description: >- # this means to ignore newlines until "baseurl:"
-  This is my description. I am making it extra long to see what the html column formatting does. 
-  Hopefuly this is long enough, but just in case, I'm going to continue adding to it
+  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joaquin-castillo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-instagram_username: joaquin.0n.sunshine
-github_username:  joaquin-castillo
+github_username: joaquin-castillo
+linkedin_username: joaquin-castillo
 
 # Build settings
 # Removed minima theme as it is now a regular theme
