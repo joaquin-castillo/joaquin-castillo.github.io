@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Reading
+menu: main
 permalink: /reading/
 ---
 
