@@ -7,7 +7,7 @@ title: Welcome
 ---
 
 [comment]: Here's where my bio is going (for now)
-<p style="text-align: justify">
+<p style="text-align: left">
 Hi, I'm Joaquin - Engineer, Designer, Cycling Enthusiast.
 </p>
 <p style="text-align: justify">
