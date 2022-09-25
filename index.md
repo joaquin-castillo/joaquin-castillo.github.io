@@ -6,7 +6,6 @@ layout: home_v2
 title: Welcome
 ---
 
-[comment]: Here's where my bio is going (for now)
 <p style="text-align: left">
 Hi, I'm Joaquin - Engineer, Designer, Cycling Enthusiast.
 </p>

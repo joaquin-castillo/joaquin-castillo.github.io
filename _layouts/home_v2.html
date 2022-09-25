@@ -16,16 +16,16 @@ layout: default
 
     <div class="home-col home-col-2">
       <p style="text-align: center">
-        <img src="{{ '/assets/joaquin_headshot.jpg' | relative_url }}" alt="joaquin_headshot" style="max-width:350px; width:100%">
+        <img src="{{ '/assets/joaquin_headshot_circle.png' | relative_url }}" alt="joaquin_headshot" style="max-width:300px; width:100%">
       </p>
     </div>
 
   </div>
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Recent Bloggings" }}</h2>
+    <h2> <strong> {{ page.list_title | default: "Recent Posts" }} </strong> </h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in site.posts -%} <!-- need to limit to 3 posts-->
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -41,15 +41,33 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <!-- <p class="feed-subscribe">
-      <a href="{{ 'feed.xml' | relative_url }}">
-        <svg class="svg-icon orange">
-          <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-        </svg><span>Subscribe</span>
-      </a>
-    </p> -->
-
-    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
   {%- endif -%}
+
+  <!-- eventually I'd like to turn the logos into hyperlinks-->
+  <h2> <strong> Experience from the following organizations </strong> </h2>
+  <table>
+    <tr>
+      <td>
+        <img src="{{ '/assets/logos/stanford.png' | relative_url }}" alt="stanford_logo" style="max-height:70px; height:100%;">
+      </th>
+      <td>
+        <img src="{{ '/assets/logos/boulder.png' | relative_url }}" alt="university_of_colordo_boulder_logo" style="max-height:70px; height:100%">
+      </td>
+      <td>
+        <img src="{{ '/assets/logos/first.png' | relative_url }}" alt="university_of_colordo_boulder_logo" style="max-height:70px; height:100%">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="{{ '/assets/logos/nasa_2.png' | relative_url }}" alt="university_of_colordo_boulder_logo" style="max-height:70px; height:100%">
+      </td>
+      <td>
+        <img src="{{ '/assets/logos/spacex_2.png' | relative_url }}" alt="university_of_colordo_boulder_logo" style="max-height:70px; height:100%">
+      </td>
+      <td>
+        <img src="{{ '/assets/logos/rivian_1.png' | relative_url }}" alt="university_of_colordo_boulder_logo" style="max-height:70px; height:100%">
+      </td>
+    </tr>
+  </table>
 
 </div>
