@@ -28,6 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joaquin-castillo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: joaquin-castillo
 linkedin_username: joaquin-castillo
+strava_username: Joaquin Castillo
 
 # Build settings
 # Removed minima theme as it is now a regular theme
