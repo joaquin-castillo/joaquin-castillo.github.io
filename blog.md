@@ -5,4 +5,4 @@ menu: main
 permalink: /blog/
 ---
 
-You wont get these next minutes of your life back
+You won't get these next minutes of your life back
