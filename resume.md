@@ -4,7 +4,7 @@ title: Resumé
 menu: main
 permalink: /resume/
 ---
-*Download PDF version [here](/assets/castillo_resume_20220829.pdf)*
+*Download PDF version [here](/assets/castillo_resume_website.pdf)*
 
 ### **Eduction**
 ___
