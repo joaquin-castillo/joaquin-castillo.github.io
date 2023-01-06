@@ -5,7 +5,9 @@ menu: main
 permalink: /projects/
 ---
 
-Introductry description here
+<p style="text-align: justify">
+Below is a listing of projects I've worked on, either on a team or on my own, that are not protected by NDA. Since middle school, I've tried to keep myself busy with at least one project where I'm learning something new. In recent years, college projects have tended to dominate most of my time, but I still enjoy working on my bikes or this website in my spare time.
+</p>
 
 ### **Graduate**
 ___

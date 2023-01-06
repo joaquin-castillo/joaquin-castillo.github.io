@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home_v2
-title: Welcome
+title: Welcome [site in progress]
 ---
 
 <p style="text-align: left">
