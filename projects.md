@@ -11,18 +11,23 @@ Below is a listing of projects I've worked on, either on a team or on my own, th
 
 ### **Graduate**
 ___
+**ME 218 D-bugger** | Stanford University  
+ME 218D project. Our team of seven students designed and produced a debugger to be used in future ME218 labs. The debugger is composed of a physical intermediary device, a GUI, and modifications to the course Events and Services Framework. The debugger allows students to visualize state changes, priorities, ISRs, code breakpoint "spot checkers", and allows students to inject events into their systems in real time. I owned the hardware design and bring-up for the intermediary board.   
+[ME218D-bugger](https://github.com/joaquin-castillo/ME218D-bugger)    
+MAY 2022 - JUN 2022
+
 **Remote Controlled Watercraft** | Stanford University  
-In just four weeks my team and I designed and built a water craft and remote control. The two communicate wirelessly over XBee through our class-wide protocol.  
+ME 218C project. In just four weeks my team and I designed and built a water craft and remote control. The two communicate wirelessly over XBee through our class-wide protocol.  
 [picman.webflow.io](https://picman.webflow.io/)    
 MAY 2022 - JUN 2022
 
 **Autonomous Basketball Robot** | Stanford University  
-Description  
+ME 218B project consisting of an autonomous robot that drives into a scoring zone, actively locates an IR beacon, and shoots three pre-loaded balls into a goal.
 [tacobot.weebly.com](https://tacobot.weebly.com/)  
 FEB 2022 - MAR 2022
 
 **Interactive Arcade Game** | Stanford University  
-Description  
+ME 218A project consisting of a robotic arm controlled by joystick that grabs a toy boat via electromagnet, and moves it from dock to water (or vice versa).  
 [bondsboat.epizy.com](https://bondsboat.epizy.com/)  
 OCT 2022 - NOV 2022
 
